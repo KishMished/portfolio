@@ -1,0 +1,21 @@
+a {
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.cf:after {
+	clear: both;
+  	content: ".";
+  	display: block;
+  	font-size: 0;
+  	height: 0;
+  	line-height: 0;
+  	visibility: hidden;
+}
+
+div {
+	display: inline-block;
+}
+
